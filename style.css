@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: gray;
+}
+
+.welcome {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/jLhWw64Jko4L5TyPdVCSCh-970-80.jpg.webp");
+    width: 100%;
+}
+
+.welcome h1{
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+
+.input-items{
+    text-align: center;
+}
+
+.input-items input{
+    
+    height: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.input-items h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.input-items p{
+    font-size: 25px;
+}
+
+.input-items .row{
+    justify-content: center;
+}
+
+.input-items .row button{
+    margin-top: 3rem;
+    width: 70%;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 50vw;
+
+}

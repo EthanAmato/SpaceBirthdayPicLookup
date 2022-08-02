@@ -16,26 +16,32 @@
             </div>
         </div>
     </div>
-    <div class = "container-fluid input-items">
-        <div class="row">
-            <h2>What is your birthday?</h2>
-            <p>Use DD-MM-YYYY Format</p>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <input type="text" placeholder="Day" id ="day">
-                <input type="text" placeholder="Month" id = "month">
-                <input type="text" placeholder="Year" id = "year">
+    <div class="container-fluid background-body">
+        <div class = "container-fluid input-items">
+            <div class="row">
+                <h2>What is your birthday?</h2>
+                <p>Use DD-MM-YYYY Format</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" placeholder="Day" id ="day">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" placeholder="Month" id = "month">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" placeholder="Year" id = "year">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-secondary" onclick="makeAPICall()">Find your space pic!</button>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <button type="button" class="btn btn-secondary" onclick="makeAPICall()">Find your space pic!</button>
+        <div class = "container-fluid images" >
+            <div id="spacePicture">
             </div>
-        </div>
-    </div>
-    <div class = "container-fluid images" >
-        <div id="spacePicture">
         </div>
     </div>
 

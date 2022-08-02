@@ -29,13 +29,16 @@ body{
     height: 100%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    position: relative;
 }
 .input-items h2{
+    color: white;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 .input-items p{
     font-size: 25px;
+    color: white;
 }
 
 .input-items .row{
@@ -47,12 +50,25 @@ body{
     width: 70%;
     border: 1px solid black;
     font-size: 30px;
+    position:relative;
 }
+
+#day{
+    
+}
+
 
 .center{
     display: block;
     margin: 0 auto;
     margin-top: 2rem;
     width: 50vw;
+    height: 100vh;
+}
 
+.background-body{
+    width: 75%;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    z-index: -10;
 }

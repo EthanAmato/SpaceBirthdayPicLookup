@@ -35,6 +35,7 @@ function displayImage(imgURL){
     let spacePic = document.createElement('img'); 
     spacePic.src=imgURL;
     spacePic.setAttribute("class", "center")
+    document.getElementById('spacePicture').innerHTML = null; //reset previous
     document.getElementById('spacePicture').appendChild(spacePic);
 }
 
